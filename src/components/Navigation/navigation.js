@@ -16,7 +16,6 @@ class Navigation extends Component {
     }
     
     render(){
-        console.log(this.state.open)
         return(
             <header>
             
