@@ -10,14 +10,14 @@ const Specs = () => {
                 <p className="specs-info">Harness the power of a custom CPU, GPU, and SSD with Integrated I/O that rewrite the rules of what a PlayStation console can do. </p>
             </div>
 
-            <div className="specs-detail">
-                <h3 className="specs-title">Stunning games </h3>
-                <p className="specs-info">Marvel at incredible graphics and experience new PS5™ features.  </p>
+            <div className="specs-detail-sm">
+                <h3 className="specs-title-sm">Ultra-High Speed SSD</h3>
+                <p className="specs-info-sm">Maximize your play sessions with near instant load times for installed PS5™ games.   </p>
             </div>
 
-            <div className="specs-detail">
-                <h3 className="specs-title">Breathtaking immersion  </h3>
-                <p className="specs-info">Discover a deeper gaming experience with support for haptic feedback, adaptive triggers and 3D Audio technology. </p>
+            <div className="specs-detail-sm">
+                <h3 className="specs-title-sm">Integrated I/O</h3>
+                <p className="specs-info-sm">The custom integration of the PS5™ console's systems lets creators pull data from the SSD so quickly that they can design games in ways never before possible. </p>
             </div>
 
             

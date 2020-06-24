@@ -5,6 +5,9 @@ import Primary from "../components/Primary/primary";
 import Simple from "../components/Simple/simple";
 import Specs from "../components/Specs/specs";
 import Newsletter from "../components/Newsletter/newsletter";
+import Stunning from "../components/Stunning/stunning";
+import Immersion from "../components/Immersion/immersion";
+import Functions from "../components/Functions/functions";
 
 const Main = () => {
     return(
@@ -22,8 +25,10 @@ const Main = () => {
             />
 
             <Specs/>
+            <Stunning/>
 
             <Primary/>
+            <Immersion/>
 
             <Simple
             title={"Heighten Your Senses"}
@@ -32,6 +37,7 @@ const Main = () => {
             all integrated into an iconic design.`}
             video={"https://www.youtube.com/embed/SebzB8W3bVU"}
             />
+            <Functions/>
 
             <Newsletter/>
            
