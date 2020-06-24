@@ -9,11 +9,18 @@ body{
     line-height: 1.5em;
 }
 
+
 nav{
 position: fixed;
   width: 100%;
   background: #fff;
   margin-bottom: 9em;
+}
+
+@media(max-width:900px){
+    nav{
+        position: relative;
+        }
 }
 
 .logo img{
@@ -251,7 +258,7 @@ nav ul{
 
 /* Stunning */
 .stunning{
-    background-image: url("https://s7test3.scene7.com/is/image/SIEPDC/ps5-games-page-background-desktop-block-01-en-15jun20?$1200px$");
+    background-image: url("./Stunning/Horizon.jpeg");
     background-size: cover;
     color: #fff;
     padding: 1em;
@@ -292,7 +299,7 @@ nav ul{
 /* Immersion */
 
 .immersion{
-    background-image: url("https://s7test3.scene7.com/is/image/SIEPDC/ps5-games-page-background-block-desktop-03-en-15jun20?$1200px$");
+    background-image: url("./Immersion/Spiderman-Miles=Morales.jpeg");
     background-size: cover;
     background-position: center;
     color: #fff;
