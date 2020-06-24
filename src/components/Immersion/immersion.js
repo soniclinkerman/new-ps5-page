@@ -10,7 +10,7 @@ const Immersion = () => {
 
             <div className="immersion-spec">
                 <div>
-                <img className="immersion-img" src="https://s7test3.scene7.com/is/image/SIEPDC/3d-audio-icon-01-en-15jun20?$native--t$"/>
+                <img alt="spiderman: miles morales"className="immersion-img" src="https://s7test3.scene7.com/is/image/SIEPDC/3d-audio-icon-01-en-15jun20?$native--t$"/>
                 </div>
                 <div>
                     <h3 className="immersion-title">Tempest 3D AudioTech</h3>
