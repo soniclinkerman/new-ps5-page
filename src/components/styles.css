@@ -17,7 +17,7 @@ position: fixed;
   margin-bottom: 9em;
 }
 
-@media(max-width:900px){
+@media(min-width:700px){
     nav{
         position: relative;
         }
