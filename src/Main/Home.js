@@ -8,12 +8,17 @@ import Newsletter from "../components/Newsletter/newsletter";
 import Stunning from "../components/Stunning/stunning";
 import Immersion from "../components/Immersion/immersion";
 import Functions from "../components/Functions/functions";
+import { Link } from "react-router-dom";
 
-const Main = () => {
+const Home = () => {
     return(
         <div>
+          
             <Navigation/>
+            <Link to="/games" style={{padding: "1em"}}>Games</Link>
+            <Link to="/accessories">Accessories</Link>
             <Top/>
+
 
             <Simple
             className="limits"
@@ -46,4 +51,4 @@ const Main = () => {
     )
 }
 
-export default Main
+export default Home

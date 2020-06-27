@@ -71,46 +71,7 @@ const Primary = () => {
 
                 </div>
 
-                <div className="notable">
-
-                    <div className="notable-1">
-                        <p>Astro's Playroom</p>
-                        <p>Bugsnax</p>
-                        <p>DEATHLOOP</p>
-                        <p>Demon's Souls</p>
-                        <p>Destruction AllStars</p>
-                        <p>GhostWire: Tokyo</p>
-                        <p>Godfall™ </p>
-                        <p>Goodbye Volcano High</p>
-                        <p>Gran Turismo 7</p>
-                        <p>Grand Theft Auto V and Grand Theft Auto Online</p>
-                    </div>
-
-                    <div className="notable-2">
-                        <p>HITMAN 3 </p>
-                        <p>Horizon Forbidden West</p>
-                        <p>JETT : The Far Shore®</p>
-                        <p>Kena: Bridge of the Spirits</p>
-                        <p>Little Devil Inside</p>
-                        <p>Marvel's Spider-Man: Miles Morales</p>
-                        <p>NBA 2K21</p>
-                        <p>Oddworld Soulstorm™</p>
-                        <p>Pragmata</p>
-                    </div>
-
-                    <div className="notable-3">
-                        <p>Project Athia (working title)</p>
-                        <p>Ratchet & Clank: Rift Apart</p>
-                        <p>Resident Evil 8</p>
-                        <p>Returnal</p>
-                        <p>Sackboy A Big Adventure</p>
-                        <p>Solar Ash</p>
-                        <p>Stray</p>
-                        <p>The Pathless</p>
-                        <p>Tribes of Midgard</p>
-                    </div>
-
-                </div>
+                
             
 
         </div>

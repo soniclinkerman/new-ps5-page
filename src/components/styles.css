@@ -11,10 +11,9 @@ body{
 
 
 nav{
-position: fixed;
-  width: 100%;
-  background: #fff;
-  margin-bottom: 9em;
+    position: fixed;
+    width: 100%;
+    background: #fff;
 }
 
 @media(min-width:700px){
@@ -92,8 +91,7 @@ nav ul{
     color: #252525;
     font-weight: bold;
     transition: 0.5s;
-    padding: 0.5em 0;
-   
+ 
 }
 
 .nav-link-hide{
@@ -138,11 +136,11 @@ nav ul{
 @media(min-width:700px){
     nav ul{
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
         display: flex;
     }
     .nav-link{
-        padding: 0.5em 3em;
+
     }
     .open-nav{
         display: none;
@@ -165,8 +163,6 @@ nav ul{
         display: flex;
     }
 
-    
-
     .logo{
         order:1;
         position: relative;
@@ -178,9 +174,18 @@ nav ul{
         justify-content: space-between;
         align-items: center;
     }
+    
+}
 
-    
-    
+@media(min-width:800px){
+    .nav-link-hide{
+        padding: 0.5em 2em;
+        margin-right: 1em;
+    }
+    nav ul{
+        justify-content: space-around;
+    }
+
 }
 
 /* Top */
@@ -193,7 +198,7 @@ nav ul{
 
 .ps5-console-img{
     width: 100%;
-    margin-top: 5em;
+    margin-top: 4em;
 }
 
 .btn-other{
@@ -308,10 +313,7 @@ nav ul{
 
 .immersion-img{
     width: 20%;
-
 }
-
-
 
 /* Primary */
 
@@ -325,7 +327,7 @@ nav ul{
 }
 
 .primary-top-title{
-    font-size: 3em;
+    font-size: 2rem;
     font-weight: 100;
     margin-bottom: 1.5em;
 }
@@ -370,25 +372,25 @@ nav ul{
 
 /* Notable */
 .notable{
-    display: grid;
-    grid-template-columns: 270px;
-    justify-content: center;
+    display: block;
     margin-top: 3em;
     font-size: 1.2rem;
     font-weight: 400;
-    padding: 0 8em;
+}
+
+.notable-title{
+    font-size: 2.5rem;
+    font-weight: 100;
 }
 
 .notable-1, .notable-2, .notable-3{
-    margin-bottom: 2em;
+    margin-bottom: 4em;
 }
 
-@media(min-width: 700px){
-    .notable{
-        display: grid;
-        grid-template-columns: auto auto auto;
-        grid-gap: 0 4em;
-
+@media(min-width: 900px){
+    .notable-games{
+        display: flex;
+        justify-content: space-around;
     }
 
 }
@@ -582,4 +584,65 @@ form span {
 
 .limits{
     background: #EEEEEE;
+}
+
+
+/* GAMES */
+.games-img{
+    width: 100%;
+    margin-top: 6em;
+}
+
+.games-logo{
+    width: 30%;
+}
+
+.games-sec{
+    color: #fff;
+    position: relative;
+    bottom: 6em;
+    right: 3em;
+}
+
+.games-title{
+    margin: 0;
+}
+
+@media(min-width: 700px){
+    .games-sec{
+        bottom: 13em;
+        right: 12em;
+    }
+
+}
+
+
+
+/* maingames */
+.maingame{
+    padding: 1em;
+}
+
+.maingame-title{
+    font-size: 1.9rem;
+    font-weight: 100;
+}
+
+@media(min-width: 900px){
+    .maingame{
+        display: flex;
+        justify-content: space-between;
+        background-size: cover;
+        background-position: center;
+    }
+    .maingame-img{
+        width: 45%;
+    }
+
+    .maingame-main{
+        align-self: center;
+        width: 50%;
+        margin: auto;
+    }
+   
 }

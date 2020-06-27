@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import logo from "./images/logo.png"
 import "../styles.css"
 import "../../index.js"
+import { Link } from "react-router-dom";
 
 class Navigation extends Component {
     constructor(props){
@@ -31,9 +32,11 @@ class Navigation extends Component {
                          <button aria-label="Close navigation" className="open-nav" onClick={this.changeOpen}>&#9776;</button>:
                          <button aria-label="Close navigation" className="close-nav" onClick={this.changeOpen}>&times;</button>
                         }
-                        
-                   
-                        <a className={this.state.open ? "nav-link-hide": "nav-link"} href="/">Games<li className="nav-item"></li></a>
+                    
+                        <Link to="/games" className={this.state.open ? "nav-link-hide": "nav-link"}>
+                       <li className="nav-item">Games</li>
+                        </Link>
+
                         <a className={this.state.open ? "nav-link-hide": "nav-link"} href="/">Hardware<li className="nav-item"></li></a>
                         <a className={this.state.open ? "nav-link-hide": "nav-link"} href="/">Services<li className="nav-item"></li></a>
                         <a className={this.state.open ? "nav-link-hide": "nav-link"} href="/">News<li className="nav-item"></li></a>
